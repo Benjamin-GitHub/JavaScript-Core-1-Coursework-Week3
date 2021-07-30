@@ -16,7 +16,7 @@ var students = ["Islam", "Lesley", "Harun", "Rukmini"];
 var mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
 
 function containNullValue(value) {
-  if value === null {
+  if (value === null) {
     return process.exit(1);
   }
 }
