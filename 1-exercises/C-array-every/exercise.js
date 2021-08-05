@@ -15,4 +15,10 @@ if (groupIsOnlyStudents) {
 
 /* EXPECTED RESULT */
 
+function containStudents(name) {
+  return students.includes(name);
+}
+
+var groupIsOnlyStudents = group.every(containStudents);
+
 // The group does not contain only students
